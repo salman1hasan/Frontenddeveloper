@@ -1,3 +1,6 @@
+Salman Hasan 
+3/19/2023 
+ 
 Nike App Clone 
 1. Mkdir 
 2. Code.  
@@ -123,3 +126,49 @@ Nike App Clone
 69.In the mobile menu add the setMobile Menu to false 
 70.Remove the onclick from the submenudata.map 
 71.Add the flex flex-col md:hidden font-awesome 
+72.Copy paste the footer, in the footer.jsx add the window.open function 
+73. Add facebook and add _blank 
+74. Create HeroBanner and add it to the index.tsx 
+75.Install react responsive carasouel 
+76. Add needed style to herobanner.jsx 
+77.Import the necessary images and style the components 
+78. In the carousel autoplay={true} infiniteLoop={true} showThumbs={false} showIndicators={false}/> 
+79.Index.tsx add the wrapper and add the <div></div> 
+80.In the index.tsx add div className and add grid </div> 
+81.Add productcard rafce 
+82. Add productcartid import link and import react 
+83. Import the image necessary for productcard id 
+84. <p className add all the text 20%/> 
+85.Add transform property to create an effect for the product 
+86.In the category file add a pages and import the category [slug].js 
+87.Dynamic Routing explained 
+88.Have to add the slug to the file 
+89.Add the wrapper and add two div classNames Running Shoes 
+90.Create a product and add <div className slug.js> 
+91.The div adding a div is important to make sure that the two columns are perfectly aligned 
+92.Create Product details carousel 
+93.Import the images that are necessary 
+94.Add product details in the slug.js 
+95.A bunch of details the most important is the sizes as you have to add all the sizes 
+96. Add size selection to the slug.js 
+97.Create two buttons Add to Cart and Wishlist 
+98.Add div className and set it = to productdetails 
+99.Add a bunch of text 
+100. Add related products and add slug.js 
+101. Add product card to the file 
+102.Create a file Cart.js 
+103.Add a header and change the and change the menu button 
+104.Create a shopping cart file and then from there add cart items and add summary 
+105.Import cartItems 
+106.Add div className and add the items for the caritem 
+107.Create a dropdown menu for the size of the components 
+108.Add another quality and add components to the file 
+109.Add the Bin button and make sure that you hide the button in the right place 
+110.Add cart.js add memory Summary 
+111.Subtotal and 20,000 and then add button className 
+112.Add an image at the end 
+113.Add a message for where it says that the cart is empty 
+114.Add a link for contining to shop 
+115.Add failed.js data 
+116.Add success.js file as well 
+ 
