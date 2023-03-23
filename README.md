@@ -1,7 +1,4 @@
-Salman Hasan 
-3/19/2023 
- 
-Nike App Clone 
+Nike App Clone [Frontend development] 
 1. Mkdir 
 2. Code.  
 3. Npm run dev  
@@ -172,3 +169,59 @@ Nike App Clone
 115.Add failed.js data 
 116.Add success.js file as well 
  
+
+ 
+Nike App Clone [Backend development] 
+1.Create Backend folder 
+2.Cd backend folder 
+3.Npx create-strapi-app@latest 
+4.Custom settings 
+5. JS, and postgres 
+6.Create an account on render.com 
+7.Click on PostgreSQL 
+8. Add the name and add the region that is near and make sure its free 
+9.Connections Copy and paste the database name from render and import it to the backend 
+10. Copy paste the external database url and and copy paste after the @ sign to the render.com 
+11.Host name copy and paste the code 
+12. Copy and paste the port 
+13. Add the userName 
+14. Add the password from the render.js file 
+15.Enable the SSL connection 
+16.NPM run develop 
+17. Add the name last name email password and confirm password 
+18.Go to cloudinary and import the cloudinary image 
+19.Make a cloudinary account 
+20.Add strapi dashboard in marketplace and add cloudinary copy install 
+21.npm install @strapi/provider-upload-cloudinary 
+22.Strapi.io/ plugin 
+23. Have to follow the instructions and add ./config/plugins.js and copy paste the code 
+24. Add a file plugins.js and copy paste the code 
+25.Remove strapi security and add fixing preview issue on strapi admin 
+26. Add the cloudinary functions to the .env file 
+27. Copy paste the name, key and the secret 
+28. Npm run develop 
+29.Upload an image to the desktop 
+30.It should be uploaded to the assets 
+31.Create collection type for strapi 
+32.Add user fields 
+33. Create a new collection type 
+product and this adds the products 
+34.Advanced settings add nothing 
+35.Text field and add name(Short text), in advanced settings for product can change the values 
+36. In the product, name needs to be required 
+37. Add subtitle and add number field and add price and number format and add decimal 
+38.Add required field and add another field 
+39. Add rich text and add name and add description and add another field 
+40.Size  
+41. Image and in advanced settings only add images 
+42.Product field add thumbnail and make it a required field and only images 
+43.In product add original price and add decimal for this one need a slug and need to add UID 
+44.Add Slug and add name 
+45. Add category and add products and add category belonds to many products 
+46. Add order, order category and add order AppID order 
+47.Add text field and add stripeId and add require field and products 
+48.Download the images shoe-store-product-images.zip 
+49.Create a product and add the original price and air-jordan-1-mid-se 
+50.Update all the categories and push the air jordan 1 mid se 
+51.Make sure that it can all be uploaded on all categories 
+52.Update the jordan categories 
