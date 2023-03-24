@@ -225,3 +225,46 @@ product and this adds the products
 50.Update all the categories and push the air jordan 1 mid se 
 51.Make sure that it can all be uploaded on all categories 
 52.Update the jordan categories 
+53.In the api tokens create and add shoe store and add full access 
+54.Copy paste the key 
+55.In the apitokens add shoe store 
+56. Download Insomnia 
+57.http://localhost:1337/api/products 
+58.Bearer Token and add the token  
+59.Can use different routes as well 
+60.Add public ramadan find and findone 
+61.Add a .env file NEXT_PUBLIC_STRAPI_API_TOKEN and add token 
+62.Utils and add urls 
+63. Const Strapi_API_Token = process.env.NEXT_PUBLIC_STRAPI_API_TOKEN 
+64. Const API_URL = process.env.NEXT_PUBLIC_API_URL || “http://localhost:1337/” 
+65.Add the 127.0.0.0 
+66.Add api.js and add api_url, strapi_api_token =”./urls’ 
+67. Const fetchDataFromApi and get the uri and import in the api.js 
+68. Add endpoint and add const res = await fetch(`${API_URL}${endpoint}`} 
+69. Const data = await res.json(); 
+70. Return data and add export const fetchDataFromApi 
+71.Index.js and add const[data,setData]= useState(null) 
+72.useEffect and add const fetchProducts =() => { 
+import fetchDataFromApi 
+} 
+73. Const {data} = await fetchDataFromApi(‘/api/products’) 
+74.setData(data) 
+75.Add data [0] attributes and name 
+76.Check in the components 
+77.Have to fetch the data from nextjs using getServerSideProps, this is the way to get the server 
+78.Remove the data and the setdata 
+79.Import the const products = await fetchdataFromApi and add api/products 
+80. Add erturn props{products} 
+81.Export function Home products 
+82.Remove the h1 and the productCart 
+83.Add products.data.map((product) => )} 
+84.key ={product.id} and add data={map} 
+85.Add productCard and add data 
+86.attributes:p, id in the product card 
+87.In the Link href={1/products/${p.slug}`} 
+88.Add image width height src and add the necessary p tags for the name price  
+89.Change the index.js for the api/products and populate 
+90.Nextconfig add eslint and add ignore during builds 
+91. Add images domains[“res.cloudinary.com”] 
+92.Add file helper.js 
+ 
