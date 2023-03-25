@@ -267,4 +267,66 @@ import fetchDataFromApi
 90.Nextconfig add eslint and add ignore during builds 
 91. Add images domains[“res.cloudinary.com”] 
 92.Add file helper.js 
+93.Export const getDiscountedPricePercentage = () => { 
+import the productcard and add the getDiscountedPricePercentage 
+and add p.original_price, and p.price 
+} 
+94.Add getDiscountedPricePercentage =() => { 
+const discount = originalPrice-discountedPrice 
+} 
+95. Return discountPercentage.toFixed(2); 
+96. Const discountPercentage = (discount/originalPrice) *100 
+97. Return discountPercentage.toFixed(2) 
+98.Add % off 
+99.In the Header.jsx add the files that are necessary  
+100.Import fetchdatafromApi 
+101.Const categories, setcategories = useState(null) 
+102.Add useEffect(()->{},[]) 
+103.const fetch categories = async () => { 
+const {data}= await fetchDataFromApi(‘/api/cateogireis?populate =*') 
+setCateogires(data) 
+} 
+104.Add fetchcategories() to the header.jsx 
+105.Add categories to the menu and the mobile menu 
+106.In the Menu.jsx add categories 
+107.Add categories.map in the Menu.jsx 
+108.Add the attributes: c,id 
+109.Add id and add /cateogry/${c.slug} 
+110.Add c.name  
+111.Add c.products.data.length 
+112.In the menu.jsx add categories 
+113.Copy paste the export 
+114.FetchDataFromApi and add const category await fetchdatafromapi 
+115.Add const paths = category.dta.map (© 
+params:{ 
+slug c.attributes.slug 
+return paths, 
+fallback:false 
+116.In the slug.js all you have to do is export async function getStaticProps({props:{slug}) 
+117. Use categories?filters[slug][$eq] =jordan and add sneakers 
+118.Add category = await fetchDataFromapi and add the same link 
+119.Add return { 
+props:{ 
+category 
+} 
+} 
+} 
+
+120. Check the filters cateogires slug eq and sneakers 
+121.Add products = await fetchDataFromApi api/products slug 
+122.Add slug.js and add getStaticProps and add params: slug 
+123.Add [$eq]=sneakers and add what is necessary for the link 
+124.const category = await fetchDataFromApi(add the link) 
+125.Const products = await fetchDataFromApi(add the link) 
+126.Add category, products and slug 
+127.Import category, products, and slug 
+128.Import category.data[0].attributes 
+129.Add products?.data?.map((product) => { 
+<ProductCard key={product?.id} data={product}/> 
+130.Check the link and add category and add products with the link and return { 
+props:{ 
+category, 
+products, 
+slug 
+131.
  
