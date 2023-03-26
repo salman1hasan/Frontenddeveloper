@@ -328,5 +328,27 @@ props:{
 category, 
 products, 
 slug 
-131.
+131.Add page index and add setpage index and add usestate(1) 
+132.Add const data error and add useSWR (‘/api/user’, fetcher) 
+133.Add the data error is loading to the useSWR add page index and add maxresult 
+134.fallback products 
+135.Copy paste the pagination code 
+136.Change to maxResult 
+137.In the pagination?.meta?.pagination?.total 
+138.Import userouter and import use query= use router 
+139.Import useEffect setPageindex(1) and query 
+140. Change p.attributes.slug paths = category.data.map 
+141. Copy paste in product and add to product 
+142.Create hyperlink for products and then specifically use it for slug 
+143.Add props product 
+144.Export product details 
+145.Fetch data api is imported 
+146.const [p].data[0].attributes 
+147.Product detail carousel images={p.image.data} 
+148.Add image 
+149.Change link in the product get static products 
+150.Product detail Carousel going to add images.map ((img<imgsrc img.id}) src ={img.attributes.url} alt ={img.attributes.name} 
+151. Going to add the name p.name, p.description and more 
+152.For Price going to have a specific output 
+ 
  
