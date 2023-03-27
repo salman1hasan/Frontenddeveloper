@@ -350,5 +350,45 @@ slug
 150.Product detail Carousel going to add images.map ((img<imgsrc img.id}) src ={img.attributes.url} alt ={img.attributes.name} 
 151. Going to add the name p.name, p.description and more 
 152.For Price going to have a specific output 
+152.For Price going to have a specific output 
+153.Comment everything out from the product 
+154. {p.size.data.map((item, i) => ( 
+
+<div 
+
+key={i} 
+
+className={`border rounded-md text-center py-3 font-medium ${ 
+
+item.enabled 
+
+? 'hover:border-black cursor-pointer' 
+
+: 'cursor-not-allowed bg-black/[0.1] opacity-50' 
+
+} ${selectedSize === item.size ? 'border-black' : ''}`} 
+
+onClick={() => { 
+
+setSelectedSize(item.size); 
+
+setShowError(false); 
+
+}} 
+
+> 
+
+{item.size} 
+
+</div> 
  
+155.Import [const selectedsize, setselectedsize] = useState and make sure use state is imported 
+156.Then we’re going to add an onclick function with the usestate const selectedsize, setselectedsize 
+157.Show error and the next one is going to be setShowerror 
+158. Update the selectedsize === item.size 
+159.Add a border to the selected size 
+160.Then add an onclick to the add to cart button and implement the usestate function 
+161.{p.description} 
+162.Add reactmarkdown and then add the markdown style 
+163
  
