@@ -390,5 +390,72 @@ setShowError(false);
 160.Then add an onclick to the add to cart button and implement the usestate function 
 161.{p.description} 
 162.Add reactmarkdown and then add the markdown style 
-163
+163. React Redux and redux toolkit 
+164.In the documentation getting started with React Redux 
+165.React-Redux and create a redux store 
+166.Import utils and add store frontend 
+167. Add folder store to the front end  
+168. Name a file store.js and import the create a redux store 
+169.Import Store and Provider as well 
+170. App.js import the store and import the provider and import the store properly 
+171.Add the <Provider> </Provider> 
+172.Implement store Provider store={store} 
+173.Create a redux state slice 
+174.Implement a file in the store cartSlice.js  
+175. In the createSlice add name:’cart’ 
+176.Import cartSlice = createSlice and add initialState, cartItems: 0 
+177.Implement cartItems[] 
+178.export const {increment,decrement,incrementByAmount} = counterSlice.actions 
+179.Change the cartslice in the carslice.js file 
+180.Can delete all the reducer method as im going to make my own 
+181.addToCart: {} => { 
+Import state, and add action 
+} 
+182. Import export const {addToCart} = cartSlice.actions; 
+183.export default cartSlice.reducer; 
+184.Add store.js and add cartSlice and import reducer, cart:cartslice 
+185.Use redux state and actions in react components to see how we can use it. The usual is useslector, usedispatch 
+186.In the products file import useSelector, useDispatch 
+187.const dispatch = useDispatch() 
+188.In the addtocart button add the dispatch and import in the slug.js 
+189. Addto cart in the slug.js 
+190. Under the scrollInto add dispatch(addToCart) 
+191.cartSlice and import reducers{ 
+addtocart 
+} 
+192.In the reducers file addtoCart add cartItems; action.payload 
+193.In the dispatch(addToCart in the slug.js add product 1 
+194.addtocart state.cartitems = action.payload 
+195.In the provider make sure to add provider store 
+197.Change dispatch to add to cart and add an else statement 
+198....product? Data? .[0] 
+selectedSize 
+199.Then in the cart slice, set an array 
+200.Install react toastify 
+201.Add toastcontainer 
+202.const notify = () => { 
+ 
+ 
+} 
+203. Install all the react toastify 
+204.Add the notify button so when the add to cart button is clicked it shows the message 
+205.Onequantity price in [slug].js  
+206. Add const item = state.cartItems.find((p)=> p.id===action.payload 
+207.if item else state.cartitems.push payload and the quantity 
+208.item.quantity item attribute.price = item.oneQuantityPrice * item.quantity 
+209.In the header going to add a useselector  
+210. Add const {cartitems} =useSelector state and state.cart 
+211.add cartitems.length>0, and then cart items.length 
+212.Add leading tight 
+213.Wrap up the components in the cart.jsx 
+214. Add cart items to make sure that the cart is initiated 
+215.Go to cartitem and change all the p names 
+216.In cartitem add image 
+217.add the p.size.data.map((item,I) I item.size disabled 
+218.In the cartitem add const quantityarr  
+219.Array.from length10,  _, I I+1 return option 1 key={1} value={q}  selected{data.queue} data.quantity =q  
+220. Const updatecartitem =(e,key) and add onchange selected size 
+221.let payload key, value, e.target.value add quantity  
+222.parseInt 
+
  
