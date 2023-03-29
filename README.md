@@ -456,6 +456,6 @@ selectedSize
 219.Array.from length10,  _, I I+1 return option 1 key={1} value={q}  selected{data.queue} data.quantity =q  
 220. Const updatecartitem =(e,key) and add onchange selected size 
 221.let payload key, value, e.target.value add quantity  
-222.parseInt 
+
 
  
