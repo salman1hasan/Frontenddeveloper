@@ -456,6 +456,26 @@ selectedSize
 219.Array.from length10,  _, I I+1 return option 1 key={1} value={q}  selected{data.queue} data.quantity =q  
 220. Const updatecartitem =(e,key) and add onchange selected size 
 221.let payload key, value, e.target.value add quantity  
+222.parseInt 
+223.Update cart and add state and action 
+224.Import useDispatch and updateCart and then add updateCartItem and add useDispatch 
+225.Then in the cart.slice, were going to add remove from cart  
+226. Update the cart.slice function 
+227.In the cartitem add updatecart, removecart 
+228.Create an onclick button with dispatch  
+229. In the slug.js file, add a const subTotal = use Memo  
+230. Update useMemo 
+231.Use the return cartItems.reduce((total,val)=> total+val.attributes.price 
+232.Add subtotal to the cart.js 
+233.Make an account 
+234.Copy paste the code 
+235.Add order.js and make sure that you convert it to USD 
+236.Add the env secrets from stripe.js 
+237.Update the api with an update payment request 
+238.Stripe Promise update the .env  
+239.const loading to cart.js 
+240.Add handle payment try and catch  
+241. Cart.js loading spinner
 
 
  
